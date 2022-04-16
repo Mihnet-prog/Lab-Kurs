@@ -1,10 +1,13 @@
 import React from "react";
-
+import Topbar from "./Components/Topbar/Topbar";
+import "./app.css"
 
 function App() {
   return (
     <div className="App">
-      **Ketu do te shkruhet kodi front edhe 
+      <Topbar/>
+      
+
     </div>
   );
 }
