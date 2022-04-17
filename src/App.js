@@ -1,18 +1,19 @@
 import React from "react";
+import Sidebar from "./Components/Topbar/Sidebar/Sidebar";
+import Home from "./Components/Pages/Home/Home";
+import Charts from "./Components/Charts/Charts";
 import Topbar from "./Components/Topbar/Topbar";
 import "./app.css"
-import sidebar from "./Components/sidebar/sidebar";
-
 
 
 function App() {
   return (
-   <div className="Cointainer">
+   <div>
      <Topbar/>
-
-     <div className="sidebar">
-
-       <sidebar/>
+     <div className="container">
+       <Sidebar/>
+     
+       <Home/>
      </div>
    </div>
   );
